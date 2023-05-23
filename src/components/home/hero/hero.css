@@ -20,7 +20,7 @@
 form {
   background-color: #fff;
   border-radius: 5px;
-  margin-top: 50px;
+  margin-top: 30px;
   padding: 0 20px;
 }
 form input {
@@ -41,7 +41,17 @@ input::placeholder {
 form .box {
   padding: 15px;
   border-left: 1px solid rgba(128, 128, 128, 0.2);
+  
 }
+form .box2 {
+  padding: 15px;
+  border-left: 1px solid rgba(128, 128, 128, 0.2);
+  margin-bottom: 30px;
+}
+.priceBox{
+  margin-bottom: 20px;
+}
+
 form .box:nth-child(1) {
   border-left: none;
 }

@@ -1,38 +1,48 @@
-import React from "react"
-import Heading from "../../common/Heading"
-import "./hero.css"
+import React from "react";
+import Heading from "../../common/Heading";
+import "./hero.css";
+import Multirange from "../../common/header/MultiRangeSlider/Multirange";
 
 const Hero = () => {
   return (
     <>
-      <section className='hero'>
-        <div className='container'>
-          <Heading title='Search Your Next Home ' subtitle='Find new & featured property located in your local city.' />
+      <section className="hero">
+        <div className="container">
+          <Heading
+            title="Search Your Next Home "
+            subtitle="Find new & featured property located in your local city."
+          />
 
-          <form className='flex'>
-            <div className='box'>
+          <form className="flex">
+            <div className="box">
               <span>City/Street</span>
-              <input type='text' placeholder='Location' />
+              <input type="text" placeholder="Location" />
             </div>
-            <div className='box'>
+            <div className="box">
               <span>Property Type</span>
-              <input type='text' placeholder='Property Type' />
+              <input type="text" placeholder="Property Type" />
             </div>
-            <div className='box'>
-              <span>Price Range</span>
-              <input type='text' placeholder='Price Range' />
+            <div className="box2">
+              {/* <span className="priceBox">Price Range</span> */}
+              <Multirange
+                min={0}
+                max={10000}
+                onChange={({ min, max }) =>
+                  console.log(`min = ${min}, max = ${max}`)
+                }
+              />
             </div>
-            <div className='box'>
+            <div className="box">
               <h4>Advance Filter</h4>
             </div>
-            <button className='btn1'>
-              <i className='fa fa-search'></i>
+            <button className="btn1">
+              <i className="fa fa-search"></i>
             </button>
           </form>
         </div>
       </section>
     </>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;

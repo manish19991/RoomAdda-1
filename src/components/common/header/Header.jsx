@@ -3,6 +3,7 @@ import "./header.css"
 import { nav } from "../../data/Data"
 import { Link } from "react-router-dom"
 
+
 const Header = () => {
   const [navList, setNavList] = useState(false)
 

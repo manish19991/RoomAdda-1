@@ -1,6 +1,9 @@
 header {
+  /* display: flex; */
+  /* justify-content: space-around; */
+  /* align-items: center; */
   background-color: #fff;
-  height: 10vh;
+  height: 15vh;
   box-shadow: 0 5px 30px rgb(0 22 84 / 10%);
   padding: 15px 0;
   position: sticky;
@@ -16,12 +19,12 @@ header a {
   font-weight: 500;
 }
 header a:hover {
-  color: #27ae60;
+  color: #98EECC;
 }
 header span {
   width: auto;
   padding: 0px 6px;
-  background: #27ae60;
+  background: #98EECC;
   border-radius: 50px;
   color: #ffffff;
   margin-right: 4px;
@@ -56,7 +59,7 @@ header .toggle {
     top: 10vh;
     left: 0;
     width: 100%;
-    background-color: #27ae60;
+    background-color: #98EECC;
     padding: 20px;
   }
   header li a {

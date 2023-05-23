@@ -27,27 +27,27 @@ export const nav = [
 export const featured = [
   {
     cover: "../images/hero/h1.png",
-    name: "Family House",
+    name: "Boys Hostel",
     total: "122 Property",
   },
   {
     cover: "../images/hero/h2.png",
-    name: "House & Villa",
+    name: "Girls Hostel",
     total: "155 Property",
   },
   {
     cover: "../images/hero/h3.png",
-    name: "Apartment",
+    name: "1BHK",
     total: "300 Property",
   },
   {
     cover: "../images/hero/h4.png",
-    name: "Office & Studio",
+    name: "1RK",
     total: "80 Property",
   },
   {
     cover: "../images/hero/h6.png",
-    name: "Villa & Condo",
+    name: "Room",
     total: "80 Property",
   },
 ]
